@@ -1,0 +1,21 @@
+# Сборка
+build/
+*-build/
+CMakeLists.txt.user*
+
+# Временные файлы
+*.user
+*.swp
+*.swo
+*~
+
+# Автоматически генерируемые файлы CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# Автоматически генерируемые файлы Qt (moc)
+moc_*.cpp
+moc_*.h
